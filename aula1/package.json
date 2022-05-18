@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/server.js",
+    "dev": "ts-node"
+  },
   "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
   },
   "dependencies": {
