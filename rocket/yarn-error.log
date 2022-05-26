@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/Cellar/node/17.9.0/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mariabaia/Library/Android/sdk/emulator:/Users/mariabaia/Library/Android/sdk/platform-tools:/Users/mariabaia/Library/Android/sdk/emulator:/Users/mariabaia/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: tunneling socket could not be established, cause=connect ECONNREFUSED ::1:3000
+      at ClientRequest.onError (/usr/local/lib/node_modules/yarn/lib/cli.js:152369:17)
+      at Object.onceWrapper (node:events:642:26)
+      at ClientRequest.emit (node:events:527:28)
+      at Socket.socketErrorListener (node:_http_client:454:9)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:164:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "rocket",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
